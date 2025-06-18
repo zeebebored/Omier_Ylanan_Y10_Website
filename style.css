@@ -79,11 +79,11 @@ img {
     text-align: center;
 }
 
-/* --- VIDEO CONTAINER (flex to align videos side by side) --- */
+
 .video-container {
     display: flex;
-    justify-content: center;  /* center the videos horizontally */
-    gap: 2em;                 /* space between video cards */
+    justify-content: center;  
+    gap: 2em;                 
     width: 70%;
     margin: 3em auto;
 }
@@ -95,7 +95,7 @@ img {
     padding: 1em;
     border-radius: 0.5em;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-    width: 45%;               /* two videos side by side, each about 45% */
+    width: 45%;               
     text-align: center;
     border: 4px solid #0066ff;
     box-sizing: border-box;
@@ -108,7 +108,7 @@ img {
 }
 /* --- END VIDEO CARD STYLE --- */
 
-/* Footer styling */
+
 .footer {
     background-color: #3b5998;
     color: white;
