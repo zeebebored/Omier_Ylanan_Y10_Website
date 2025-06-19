@@ -9,13 +9,13 @@ html {
     background-color: #f0f4f8;
 }
 
-/* reset for images to ensure they are 100% of the parent container width */
+
 img {
     width: 100%;
     border-radius: 0.5em;
 }
 
-/* The hero section styling */
+
 .hero {
     background-image: url('images/WEBSITE HEADER.jpg');
     height: 25vh;
@@ -29,7 +29,7 @@ img {
     position: relative;
 }
 
-/* BIG text styling for the hero section text */
+
 .hero-text {
     font-size: 4em;
     font-weight: bold;
@@ -46,7 +46,7 @@ img {
     background-color: #3b5998;
 }
 
-/* 3-column grid */
+
 .topic-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -67,7 +67,7 @@ img {
     box-sizing: border-box;
 }
 
-/* Hover effect on topic cards */
+
 .topic-card:hover {
     transform: translateY(-10px);
 }
